@@ -1,0 +1,18 @@
+.repository {
+    padding: 24px 16px;
+}
+.repository ~ .repository {
+    border-top: 1px solid var(--foreground-muted);
+}
+
+.repository .repository-title {
+    color: var(--foreground-active);
+    font-size: 20px;
+    font-weight: 600;
+}
+.repository-description, .repository-updated-at {
+    padding: 8px 0;
+    font-size: 14px;
+    max-width: 500px;
+    color: var(--foreground-secondary);
+}

@@ -1,0 +1,28 @@
+.footer {
+    border-top: 1px solid var(--foreground-muted);
+}
+.footer > .container {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-group {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-item {
+    display: inline-block;
+    font-size: 14px;
+    color: var(--foreground-secondary);
+}
+a.footer-item {
+    color: var(--foreground-active);
+    text-decoration: none;
+}
+.footer .logo {
+    opacity: 0.5;
+    margin: 0 40px;
+}

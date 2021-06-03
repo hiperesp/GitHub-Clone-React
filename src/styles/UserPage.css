@@ -1,0 +1,30 @@
+.main-content.user-page > .container {
+    display: flex;
+}
+.tabs {
+    padding-top: 32px;
+    border-bottom: 1px solid var(--foreground-muted);
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.tab-item {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    font-size: 14px;
+    border-bottom: 2px solid transparent;
+    color: var(--foreground-primary);
+    cursor: pointer;
+}
+.tab-item .tab-name {
+    display: inline-block;
+    margin-left: 6px;
+}
+.tab-item:hover {
+    border-bottom: 2px solid var(--background-primary);
+}
+.tab-item.active {
+    font-weight: bold;
+    border-bottom: 2px solid var(--tab-active);
+}
